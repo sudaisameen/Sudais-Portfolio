@@ -4,7 +4,7 @@ import Home from "./Components/Home"
 import Services from "./Components/Services"
 import Skillstech from "./Components/Skills&tech"
 import Projects from "./Components/Project"
-import Footer from "./Components/footer"
+import Footer from "./Components/Footer"
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
