@@ -28,22 +28,23 @@ const Footer = () => {
     }
   });
 
-  tl.from(
-    [
-      `.${styles.h3sss}`,
-      `.${styles.lists} ul li`,
-      `.${styles.horizontalline} hr`,
-      `.${styles.imgssfooter} img`,
-      `.${styles.footertext}`
-    ],
-    {
-      y: 30,
+  tl.from(`.${styles.h3sss} , .${styles.lists} ul li , .${styles.imgssfooter} img`,{
+     y: 30,
       opacity: 0,
       duration: 0.5,
       stagger: 0.15,
       ease: "power2.out"
-    }
-  );
+
+  })
+  tl.from(`.${styles.horizontalline} hr, .${styles.footertext}`,{
+     y: 10,
+      opacity: 0,
+      duration: 0.5,
+      stagger: 0.15,
+      ease: "power2.out"
+
+  })
+
 
   },{
     scope:container
