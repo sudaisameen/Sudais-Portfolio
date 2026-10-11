@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Fjalla+One&family=Montenegrin+Gothic+One&family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.parentdiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(1, 1, 42);
+
+}
+
+.sidemobile{
+    display: none;
+}
+
+
+.navbarparent{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+
+}
+
+.navbarparent img{
+    display: none;
+}
+
+
+.h3ss{
+      border-radius: 23px;
+  font-size: 34px;
+  margin-right: 35px;
+    background: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+      background-clip: text;
+     -webkit-background-clip: text;
+      color: transparent;
+     -webkit-text-fill-color: transparent; 
+
+}
+
+
+.parentdiv ul{
+    display: flex;
+    cursor: pointer;
+    gap: 40px;
+    list-style: none;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 27px;
+}
+
+
+.link{
+     position: relative;
+  text-decoration: none;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #322cc9;
+  transition: width 0.3s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.button1 button{
+      border: none ;
+      cursor: pointer;
+    font-size: 20px;
+    padding: 13px;
+     font-family: "Scoutie Sans", sans-serif;
+    font-weight: 600;
+    width: 150px;
+     transition: transform 0.5s ease;
+    border-radius: 23px;
+    color: white;
+   background: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+}
+
+
+
+.button1 button:hover{
+    
+    transform: scale(1.09);
+
+}
+
+
+
+
+
+.button2{
+      margin: 20px 37px 0 0;
+      border: none;
+      cursor: pointer;
+    font-size: 20px;
+    padding: 16px;
+     font-family: "Scoutie Sans", sans-serif;
+    font-weight: 600;
+    width: 220px;
+    transition: transform 0.5s ease;
+    border-radius: 28px;
+    color: white;
+   background: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+
+}
+
+
+.button2:hover{
+   
+    transform: scale(1.09);
+
+
+}
+
+.button3{
+    border: 2px solid #322cc9;
+     cursor: pointer;
+    font-size: 20px;
+    padding: 14px;
+     font-family: "Scoutie Sans", sans-serif;
+    font-weight: 600;
+    width: 240px;
+      transition: transform 0.5s ease;
+    border-radius: 28px;
+    background-color:  rgb(1, 1, 42);
+    color: #322cc9;
+   
+}
+
+.button3:hover{
+    
+    transform: scale(1.09);
+}
+
+
+
+.horizontal hr{
+   margin-top: 17px;
+    border: 0;                /* Removes the default shaded border */
+    height: 0.5px;
+    background-image: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+   
+
+}
+
+.parenthome{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+
+
+
+}
+
+.leftflex{
+    position: absolute;
+    left: 170px;
+      top: 90px;
+
+
+}
+
+.h1ss{
+     font-size: 61px;
+     color: white;
+     
+}
+
+.h2ss{
+     font-size: 72px;
+       background: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+      background-clip: text;
+     -webkit-background-clip: text;
+      color: transparent;
+     -webkit-text-fill-color: transparent; 
+
+}
+
+.leftflex img{
+    margin: -4px;
+}
+
+.leftflex h2{
+    color: white;
+   
+}
+
+.leftflex p {
+
+    color: white;
+    font-size: 30px;
+    font-weight:lighter;
+     font-family: "Scoutie Sans", sans-serif;
+}
+
+.rightflex{
+    position: absolute;
+    top: 90px;
+    right: 170px;
+}
+
+.rightflex img{
+
+    height: 420px;
+    width: 420px;
+    object-fit: cover;
+    border: black;
+    border-radius: 50%;
+     transition: transform 0.5s ease;
+ box-shadow:
+  0 10px 35px rgba(239, 243, 246, 0.452),
+  0 0 50px rgba(226, 232, 237, 0.427);
+}
+
+.rightflex img:hover{
+     
+    transform: scale(1.05);
+
+}
+
+
+.parenticons{
+    position: relative;
+     inset: 0;
+      animation: moveIcons 18s linear infinite;
+}
+
+.icon1 {
+
+    position: absolute;
+    right: 500px;
+    top: 510px; 
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #312cc934;
+}
+
+.icon1 img{
+     height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+.icon2{
+      position: absolute;
+    right: 620px;
+     top: 270px; 
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #312cc934;
+}
+
+.icon2 img{
+       height: 35px;
+    width: 35px;
+    object-fit: cover;
+     
+}
+
+.icon3{
+     position: absolute;
+    right: 500px;
+     top: 50px; ;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #312cc934;
+}
+
+.icon3 img{
+       height: 32px;
+    width: 32px;
+    object-fit: cover;
+     
+}
+
+.icon4{
+     position: absolute;
+    right: 200px;
+    top: 50px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #312cc934;
+}
+
+.icon4 img{
+       height: 35px;
+    width: 35px;
+    object-fit: cover;
+     
+}
+
+.icon5{
+     position: absolute;
+    right: 88px;
+     top: 270px; 
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #312cc934;
+}
+
+.icon5 img{
+       height: 35px;
+    width: 35px;
+    object-fit: cover;
+     
+}
+
+.icon6{
+     position: absolute;
+      right: 200px;
+       top: 505px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #312cc934;
+}
+
+.icon6 img{
+       height: 35px;
+    width: 35px;
+    object-fit: cover;
+     
+}
+
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+ 
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 600px){
+
+    .parentdiv{
+        height: 100%;
+        width: 100%;
+        max-width: 1200px;
+    }
+    
+.navbarparent{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 5.4rem;
+
+}
+.sidemobile{
+    display: block;
+}
+
+.navbarparent img{
+    display: block;
+    height: 6.8vw;
+    width: 6.8vw;
+}
+
+
+.parentdiv ul{
+   
+    display: none;
+
+}
+
+
+
+.h3ss{
+   display: none;
+
+}
+
+
+
+.button1 button{
+    font-size: 0.7rem;
+    padding: 2.7vw;
+    width: 30vw;
+}
+
+.parenthome{
+ 
+    display: flex;
+    margin-top: 20vw;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4vw;
+    position: relative;
+    gap: 1rem;
+}
+
+.h1ss{
+     font-size: 1.5rem;
+     
+}
+
+.h2ss{
+     font-size: 1.8rem;
+
+}
+
+
+.leftflex p {
+
+    font-size: 0.84rem;
+}
+
+.leftflex{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+    gap: 1.5vw;
+   
+}
+
+.rightflex{
+  position: static;
+  
+}
+
+
+.rightflex img{
+      width: 60vw;
+        height: 60vw;
+        max-width: 200px;
+        max-height: 200px;
+
+}
+
+.button2{
+    font-size: 0.7rem;
+    padding: 3vw;
+    width: 40vw;
+}
+
+.button3{
+       font-size: 0.7rem;
+    padding: 3vw;
+    width: 40vw;
+
+}
+
+.leftflex span img{
+    height: 10vw;
+    max-height: 15px;
+    max-width: 15px;
+    width: 10vw;
+
+}
+
+.responsivebutton{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.parenticons{
+    position: static;
+    display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1002;
+
+  width: 300px;
+  max-width: 85%;
+  height: 100vh;
+  height: 100dvh;
+  box-sizing: border-box;
+  padding: 30px 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background: linear-gradient(160deg, #171735, #03031c);
+  border-right: 1px solid #8034db;
+  box-shadow: 10px 0 35px #0005;
+
+  transform: translateX(-100%);
+  visibility: hidden;
+  transition: transform 0.4s ease, visibility 0.4s ease;
+}
+
+.sidebarOpen {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.sidebar h2 {
+  font-size: 32px;
+  background: linear-gradient(90deg, #6538ff, #ed35ac);
+  background-clip: text;
+  color: transparent;
+}
+
+.closeBtn {
+  align-self: flex-end;
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.sidebar a:hover {
+  background: linear-gradient(90deg, #5126cf, #c92d9e);
+  transform: translateX(5px);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  background: rgb(0 0 0 / 65%);
+}
+
+
+}
+
+
+

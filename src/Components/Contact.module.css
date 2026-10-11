@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Fjalla+One&family=Montenegrin+Gothic+One&family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parentdiv{
+     height: 100vh;
+    width: 100vw;
+      background-color: rgba(1, 1, 42, 0.864);
+}
+
+
+
+.parentflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+.H1sss{
+   text-shadow:
+  0 10px 35px rgba(239, 243, 246, 0.241),
+  0 0 50px rgba(226, 232, 237, 0.23);
+    color: white;
+    font-size: 35px;
+    font-family: "Scoutie Sans", sans-serif;
+
+}
+
+.parastyle{
+
+     font-family: "Scoutie Sans", sans-serif;
+     color: white;
+     font-size: 14px;
+     margin: -3px;
+
+}
+
+
+.parentcontact{
+     
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+      margin-top: 30px;
+
+
+}
+
+
+.H1content{
+    color: white;
+    font-size: 20px;
+}
+
+
+.parasss{
+    color: rgba(255, 255, 255, 0.741);
+}
+
+.personalinfo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imgandpara{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 8px;
+}
+
+.personalinfo p{
+    font-size: 20px;
+    
+}
+
+
+
+.personalinfo img{
+      
+    height: 26px;
+    width: 26px;
+    background-color: #312cc965;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    
+
+}
+
+
+.leftcontact{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+
+.rightcontact{
+            
+       border: none;
+    height: 530px;
+    width: 530px;
+    cursor: pointer;
+    border-radius: 15px;
+     transition: transform 0.5s ease;
+  background: 
+  linear-gradient(135deg, #312cc9db 0%, #9f30be67 60%, #e84c92b1 100%);
+
+}
+
+
+.rightcontact:hover{
+     transform: scale(1.03);
+      box-shadow:
+  0 10px 35px #312cc948,
+  0 0 50px  #312cc94e;
+}
+
+
+
+
+
+.inputcontrol{
+       display: flex;
+       justify-content: center;
+       margin-top: 15px;
+       row-gap: 30px;
+       column-gap: 15px;
+       flex-wrap: wrap;
+}
+
+
+
+.inputcontrol input{
+    padding: 17px;
+    border-radius: 32px;
+    width: 220px;
+    border: none;
+    margin-top: 6px;
+    outline: none;
+}
+
+.inputcontrol label{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.message textarea{
+    border-radius: 10px;
+    height: 110px;
+    width: 450px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+
+.stylebutton button{
+    padding: 20px;
+    cursor: pointer;
+    width: 450px;
+    border: none;
+    color: white;
+     transition: transform 0.5s ease;
+    background: 
+  linear-gradient(135deg, #312cc9 0%, #9f30be41 60%, #e84c92 100%);
+    border-radius: 30px;
+
+}
+
+
+.stylebutton button:hover{
+
+     transform: scale(1.03);
+}
+
+
+
+@media (max-width:600px) {
+
+      .parentdiv{
+        height: 100%;
+        width: 100%;
+        max-width: 1200px;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        
+    }
+
+    
+.H1sss{
+  
+    font-size: 4.3vw;
+
+}
+
+
+.parastyle{
+
+     font-size: 2.5vw;
+     margin: -2px;
+
+}
+
+.parentcontact{
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 4vw;
+    gap: 3vw;
+      margin-top: 10vw;
+}
+
+.H1content{
+
+   font-size: 2.3vw;
+}
+
+
+.parasss{
+    font-size: 2.1vw;
+}
+
+.personalinfo{
+    gap: 1vw;
+}
+
+.personalinfo img{
+      
+    height: 5.2vw;
+    width: 5.2vw;
+    padding: 1vw;
+
+}
+
+.personalinfo p{
+    font-size: 3vw;
+    
+}
+
+.imgandpara{
+    gap: 2vw;
+    margin-top: 8px;
+}
+
+.leftcontact{
+     gap: 3vw;
+}
+
+.rightcontact{
+            
+    height: 89vw;
+    width: 92vw;
+}
+
+.inputcontrol{
+      
+       margin-top: 3vw;
+       row-gap: 2vw;
+       column-gap: 4vw;
+       flex-wrap: wrap;
+}
+
+.inputcontrol input{
+    padding: 3vw 4vw;
+    width: 40vw;
+    margin-top: 1vw;
+}
+
+.inputcontrol label{
+  
+    font-size: 3vw;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  opacity: 1;
+  font-size: 3vw;
+}
+
+textarea::placeholder {
+   opacity: 1;
+   color: gray;
+   font-style: italic;
+   font-size: 3vw;
+}
+
+
+.message textarea{
+   
+    height: 25vw;
+    width: 80vw;
+}
+
+.stylebutton button{
+    font-size: 2.5vw;
+    padding: 4vw;
+    width: 50vw;
+   
+
+}
+
+
+
+
+}

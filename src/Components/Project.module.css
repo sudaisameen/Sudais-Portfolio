@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Fjalla+One&family=Montenegrin+Gothic+One&family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parentdiv{
+     height: 100vh;
+    width: 100vw;
+      background-color: rgba(1, 1, 42, 0.864);
+}
+
+.parentflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.H1sss{
+   text-shadow:
+  0 10px 35px rgba(239, 243, 246, 0.241),
+  0 0 50px rgba(226, 232, 237, 0.23);
+    color: white;
+    font-size: 35px;
+    font-family: "Scoutie Sans", sans-serif;
+
+}
+
+.parastyle{
+
+     font-family: "Scoutie Sans", sans-serif;
+     color: white;
+     font-size: 14px;
+     margin: -2px;
+     font-style:oblique ;
+
+}
+
+.boxparent{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 14px;
+}
+
+.border1,.border2{
+    margin-top: 6px;
+    height: 560px;
+    width: 570px;
+ border: none;
+  border-radius: 16px;
+   background: 
+  linear-gradient(135deg, #312cc9a8 0%, #9f30be41 60%, #e84c9241 100%);
+}
+
+
+
+.jsproj1{
+     display: flex;
+    justify-content: center;
+}
+
+.jsproj1 img{
+   margin-top: 15px;
+    height: 300px;
+      transition: transform 0.5s ease;
+    width: 530px;
+    object-fit: cover;
+    border-radius: 16px;
+
+}
+
+.jsproj1 img:hover{
+    transform: scale(1.01);
+}
+
+.project1content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.h1pro{
+    font-size: 18px;
+    color: white;
+    font-family: "Scoutie Sans", sans-serif;
+}
+
+.paragraph{
+    color: white;
+   font-family: "Scoutie Sans", sans-serif;  
+}
+
+.button123{
+    display: flex;
+    gap: 20px;
+}
+
+.button123 button{
+    border: none;
+    width: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    gap: 20px;
+    transition: transform 0.5s ease;
+    font-weight: 500px;
+    color: white;
+    cursor: pointer;
+     background: 
+  linear-gradient(135deg, #312cc998 0%, #9f30bea1 60%, #e84c92a8 100%);
+}
+
+.button123 button:hover{
+      transform: scale(1.1);
+}
+
+.buttonlive button{
+      
+    width: 250px;
+     border: none; 
+      padding: 15px;
+         transition: transform 0.5s ease;
+      background-color: #9f30be41;
+    border-radius: 16px;
+     color: white;
+    cursor: pointer;
+    background: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+}
+
+.buttonlive button:hover{
+    transform: scale(1.08);
+}
+
+.buttonlive img{
+    height: 15px;
+    width: 15px;
+    margin: -3px;
+}
+
+
+
+@media (max-width:600px) {
+
+      .parentdiv{
+        height: 100%;
+        width: 100%;
+        max-width: 1200px;
+        padding-bottom: 4vw;
+        
+    }
+
+        
+.H1sss{
+  
+    font-size: 4vw;
+
+}
+
+
+.parastyle{
+
+     font-size: 2.5vw;
+     margin: -2px;
+
+}
+
+.boxparent{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 14px;
+}
+
+.parentflex{
+    padding-top: 4vw;
+}
+
+.border1,.border2{
+
+    height: 86vw;
+    width: 80vw;
+}
+
+.jsproj1 img{
+
+    height: 35vw;
+     width: 70vw;
+}
+
+.h1pro{
+    font-size: 2.6vw;
+  
+}
+
+.paragraph{
+    font-size: 2.7vw; 
+}
+
+
+.button123 button{
+
+    width: 18vw;
+    font-size: 2.6vw;
+    padding: 8px;
+    gap: 0.3vw;
+}
+
+.buttonlive button{
+      
+     width: 45vw;
+    font-size: 2.6vw;
+    padding: 3.2vw;
+   
+}
+.buttonlive img{
+    height: 3.1vw;
+    width: 3.1vw;
+    margin: -3px;
+}
+
+.project1content{
+
+    margin-left: 5.8vw;
+    gap: 4.1vw
+}
+
+
+}

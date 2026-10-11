@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Fjalla+One&family=Montenegrin+Gothic+One&family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parentdiv{
+    height: 45vh;
+     width: 100vw;
+    background-color: rgb(1, 1, 42);
+    position: relative;
+    
+}
+
+
+.footerparent{
+   
+    display: flex;
+    gap: 80px;
+     
+}
+
+.h3sss{
+     
+    position: absolute;
+    left: 62px;
+    top: 120px;
+     font-size: 29px;
+    background: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+      background-clip: text;
+     -webkit-background-clip: text;
+      color: transparent;
+     -webkit-text-fill-color: transparent; 
+   
+}
+
+
+.lists ul{
+    
+    display: flex;
+    gap: 40px;
+   position: absolute;
+    left: 540px;
+    top: 124px;
+
+}
+
+.lists ul li{
+    list-style: none;
+    color: white;
+    font-size: 23px;
+    font-family: "Scoutie Sans", sans-serif;
+    cursor: pointer;
+}
+
+.lists ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.link{
+     position: relative;
+  text-decoration: none;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #322cc9;
+  transition: width 0.3s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+
+
+.imgssfooter{
+    display: flex;
+    gap: 15px;
+     position: absolute;
+    right: 62px;
+    top: 124px;
+
+   
+}
+
+
+.imgssfooter img{
+    
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #322cc9;
+}
+
+
+.horizontalline hr{
+     
+    width: 92%;
+    position: absolute;
+    right: 61px;
+    top: 225px;
+    border: 0;              
+    height: 0.5px;
+    background-image: linear-gradient(135deg, #322cc9 0%, #a030be 60%, #e84c93 100%);
+
+}
+
+.footertext{
+   position: absolute;
+   left: 40%;
+   top: 270px;
+    
+    
+}
+
+.footertext p{
+    color: white;
+}
+
+.footertext img{
+    height: 11px;
+    width: 11px;
+}
+
+
+@media (max-width:600px) {
+
+      .parentdiv{
+        height: 80%;
+        width: 100%;
+        max-width: 1200px;
+         position: static;
+        
+    }
+
+
+
+    .footerparent{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+    .h3sss{
+     
+    position: static;
+    font-size: 4.3vw;
+    padding-top: 10vw;
+   
+}
+
+.lists ul{
+    
+    display: flex;
+    flex-direction: column;
+     gap: 2vw;
+   position: static;
+
+}
+
+.lists ul li{
+   
+    font-size: 3.4vw;
+}
+
+.link{
+    position: static;
+}
+
+.link::after {
+  position: static;
+  display: none;
+
+}
+
+.imgssfooter{
+
+     position: static;
+}
+
+.imgssfooter img{
+    
+    height: 5vw;
+    width: 5vw;
+    padding: 3px;
+}
+
+.horizontalline hr{
+     
+    position: static;
+    display: none;
+
+}
+
+.footertext{
+   position: static;
+   display: flex;
+   align-items: center;
+   padding: 3vw 0 5vw 0;
+   justify-content: center;
+    
+}
+
+.footertext p{
+    font-size: 2.4vw;
+}
+
+.footertext img{
+    height: 2vw;
+    width: 2vw;
+}
+
+
+
+
+
+}
+

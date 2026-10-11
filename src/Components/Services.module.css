@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Fjalla+One&family=Montenegrin+Gothic+One&family=Oswald:wght@200..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parentdiv{
+    
+      height: 100vh;
+    width: 100vw;
+    background-color: rgb(1, 1, 42);
+
+}
+
+.parentflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.H1sss{
+   text-shadow:
+  0 10px 35px rgba(239, 243, 246, 0.322),
+  0 0 50px rgba(226, 232, 237, 0.3);
+    color: white;
+    font-size: 35px;
+    font-family: "Scoutie Sans", sans-serif;
+
+}
+
+.parastyle{
+
+     font-family: "Scoutie Sans", sans-serif;
+     color: white;
+     font-size: 14px;
+     margin: -2px;
+
+}
+
+
+.boxparent{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin-top: 15px;
+    
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+
+    border: none;
+    height: 265px;
+    width: 320px;
+    cursor: pointer;
+    border-radius: 15px;
+     transition: transform 0.5s ease;
+  background: 
+  linear-gradient(135deg, #312cc9a8 0%, #9f30be41 60%, #e84c928a 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+  font-size: 19px;
+   gap: 6px;
+
+}
+
+
+.box1:hover{
+     transform: scale(1.03);
+}
+
+.icon1 img{
+   height: 85px;
+   width: 85px;
+}
+.icon2 img{
+   height: 82px;
+   width: 110px;
+}
+
+.icon3 img{
+    height: 82px;
+   width: 110px;
+}
+
+.icon4 img{
+    height: 82px;
+   width: 110px;
+}
+
+.icon5 img{
+     height: 82px;
+   width: 110px;
+    
+}
+
+.icon6 img{
+     height: 82px;
+   width: 110px;
+}
+
+.icon7 img{
+     height: 82px;
+   width: 110px;
+}
+
+.icon8 img{
+     height: 82px;
+   width: 110px;
+}
+
+.h3ss,.h3icon2, .h3icon3 , .h3icon4,.h3icon5,.h3icon6,.h3icon7,.h3icon8{
+     color: white; 
+      font-family: "Scoutie Sans", sans-serif;
+      font-weight:200;
+      font-size: 25px;
+      margin: -7px;
+
+}
+
+.paragraph,.paragraph1,.paragraph2,.paragraph3,.paragraph4,.paragraph5,.paragraph6, .paragraph7{
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6px;
+    color: white;
+    font-family: "Scoutie Sans", sans-serif;
+     font-size: 15px;
+    
+}
+
+
+
+@media (max-width:600px) {
+
+      .parentdiv{
+        height: 100%;
+        width: 100%;
+        max-width: 1200px;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        
+    }
+
+    
+.H1sss{
+  
+    font-size: 4.8vw;
+
+}
+
+
+.parastyle{
+
+     font-size: 3vw;
+     margin: -2px;
+
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+
+     height: 45vw;
+    width: 48vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
+
+}
+
+
+.boxparent{
+
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 1.5vw;
+    margin-top: 15px;
+}
+
+
+.icon1 img{
+   height: 8.3vw;
+   width: 8.3vw;
+}
+.icon2 img{
+ height: 8.3vw;
+   width: 11vw;
+}
+
+.icon3 img{
+   height: 8.3vw;
+   width: 11vw;
+}
+
+.icon4 img{
+    height: 8.3vw;
+   width: 11vw;
+}
+
+.icon5 img{
+     height: 8vw;
+   width: 10.5vw;
+    
+}
+
+.icon6 img{
+     height: 8vw;
+   width: 10.5vw;
+}
+
+.icon7 img{
+     height: 8vw;
+   width: 10.5vw;
+}
+
+.icon8 img{
+   height: 8vw;
+   width: 10.5vw;
+}
+
+.h3ss,.h3icon2, .h3icon3 , .h3icon4,.h3icon5,.h3icon6,.h3icon7,.h3icon8{
+    
+      font-size: 3.5vw;
+      line-height: 7vw;
+
+}
+
+.paragraph,.paragraph1,.paragraph2,.paragraph3,.paragraph4,.paragraph5,.paragraph6, .paragraph7{
+      
+ 
+     font-size: 2.5vw;
+    
+}
+
+    
+
+
+
+
+}
