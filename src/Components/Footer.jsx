@@ -37,7 +37,7 @@ const Footer = () => {
 
   })
   tl.from(`.${styles.horizontalline} hr, .${styles.footertext}`,{
-     y: 10,
+     y: -10,
       opacity: 0,
       duration: 0.5,
       stagger: 0.15,
