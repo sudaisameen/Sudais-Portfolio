@@ -45,7 +45,16 @@ const Contact = () => {
 
 
         }, "anime")
-        tl.from(`.${styles.rightcontact}, .${styles.inputcontrol}, label, input, textarea, button `, {
+         tl.from(`.${styles.rightcontact}`, {
+
+            x: 0,
+            opacity: 0,
+            duration: 0.9,
+
+
+        }, "anime")
+
+        tl.from(`.${styles.inputcontrol}, .${styles.stylebutton} , label, input, textarea`, {
 
             x: 100,
             opacity: 0,

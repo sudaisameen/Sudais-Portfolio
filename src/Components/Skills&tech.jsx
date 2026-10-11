@@ -46,7 +46,7 @@ const Skillstech = () => {
         })
         tl.from(`.${styles.box1}, .${styles.icon1}, .${styles.h3ss}, .${styles.paragraph} `, {
 
-            x: -150,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -54,7 +54,7 @@ const Skillstech = () => {
         }, "anime")
         tl.from(`.${styles.box4}, .${styles.icon4}, .${styles.h3icon4}, .${styles.paragraph3} `, {
 
-            x: -150,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -63,7 +63,7 @@ const Skillstech = () => {
 
         tl.from(`.${styles.box3}, .${styles.icon3}, .${styles.h3icon3}, .${styles.paragraph2} `, {
 
-            x: 150,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -71,7 +71,7 @@ const Skillstech = () => {
         }, "anime")
         tl.from(`.${styles.box6}, .${styles.icon6}, .${styles.h3icon6}, .${styles.paragraph5} `, {
 
-            x: 150,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -79,18 +79,18 @@ const Skillstech = () => {
         }, "anime")
         tl.from(`.${styles.box2}, .${styles.icon2}, .${styles.h3icon2}, .${styles.paragraph1} `, {
 
-            y: 20,
+            y: 0,
             opacity: 0,
             duration: 1,
-            scale: 0.3,
+              stagger: 0.3
 
         }, "anime")
         tl.from(`.${styles.box5}, .${styles.icon5}, .${styles.h3icon5}, .${styles.paragraph4} `, {
 
-            y: 20,
+            y: 0,
             opacity: 0,
             duration: 1,
-            scale: 0.3,
+              stagger: 0.3
 
         }, "anime")
 

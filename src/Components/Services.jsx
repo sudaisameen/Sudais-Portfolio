@@ -40,7 +40,7 @@ const Services = () => {
         })
 
         tl.from(`.${styles.box2}, .${styles.icon2}, .${styles.h3icon2}, .${styles.paragraph1} `, {
-            x: -200,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -48,7 +48,7 @@ const Services = () => {
         }, "anim1")
 
         tl.from(`.${styles.box1}, .${styles.icon1}, .${styles.h3ss}, .${styles.paragraph} `, {
-            x: -100,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -56,7 +56,7 @@ const Services = () => {
         }, "anim1")
 
         tl.from(`.${styles.box6}, .${styles.icon6}, .${styles.h3icon6}, .${styles.paragraph5} `, {
-            x: -200,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -66,7 +66,7 @@ const Services = () => {
 
 
         tl.from(`.${styles.box5}, .${styles.icon5}, .${styles.h3icon5}, .${styles.paragraph4} `, {
-            x: -100,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -74,7 +74,7 @@ const Services = () => {
         }, "anim2")
 
         tl.from(`.${styles.box3}, .${styles.icon3}, .${styles.h3icon3}, .${styles.paragraph2} `, {
-            x: 200,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
@@ -83,21 +83,21 @@ const Services = () => {
 
 
         tl.from(`.${styles.box4}, .${styles.icon4}, .${styles.h3icon4}, .${styles.paragraph3} `, {
-            x: 100,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
 
         }, "anim1")
         tl.from(`.${styles.box7}, .${styles.icon7}, .${styles.h3icon7}, .${styles.paragraph6} `, {
-            x: 200,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3
 
         }, "anim2")
         tl.from(`.${styles.box8}, .${styles.icon8}, .${styles.h3icon8}, .${styles.paragraph7}`, {
-            x: 100,
+            x: 0,
             opacity: 0,
             duration: 1,
             stagger: 0.3

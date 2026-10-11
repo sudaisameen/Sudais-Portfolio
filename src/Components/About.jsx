@@ -26,15 +26,22 @@ const About = () => {
         });
 
         tl.from(`.${styles.leftflex} img `,{
-           x:-100,
+           x: 0,
         opacity:0,
         duration:0.8,
         ease: "power2.out",
 
         },"anime");
 
-        tl.from(`.${styles.rightH1} , .${styles.stylepara}, .${styles.stylepara1}, .${styles.button1} button `,{
+        tl.from(`.${styles.rightH1} , .${styles.stylepara}, .${styles.stylepara1} `,{
              x:100,
+        opacity:0,
+        duration:0.5,
+        stagger:0.2,
+
+        },"anime")
+        tl.from(`.${styles.button1} button `,{
+             x:0,
         opacity:0,
         duration:0.5,
         stagger:0.2,
